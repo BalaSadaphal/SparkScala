@@ -1,4 +1,10 @@
-val limit=10;
+import fiddle.Fiddle, Fiddle.println
+import scalajs.js
+
+@js.annotation.JSExportTopLevel("ScalaFiddle")
+object ScalaFiddle {
+  
+  val limit=10;
   
   println("Fibonacci Series of "+limit)
   
@@ -16,3 +22,7 @@ val limit=10;
     
   
   }
+  
+  
+  // $FiddleEnd
+}
