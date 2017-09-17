@@ -1,0 +1,18 @@
+val limit=10;
+  
+  println("Fibonacci Series of "+limit)
+  
+  var number1=0;
+  var number2=1;
+  
+  println(number1);
+  println(number2);
+  
+  for(i<- 0 to limit by 1){
+    var number3=number1+number2;
+    println(number3);
+    number1=number2
+    number2=number3;
+    
+  
+  }
